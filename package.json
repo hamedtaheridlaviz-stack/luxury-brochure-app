@@ -1,9 +1,0 @@
-{
-  "name": "bh-luxury-brochure-app-with-import",
-  "version": "2.1.0",
-  "private": true,
-  "scripts": {
-    "start": "vercel dev"
-  },
-  "dependencies": {}
-}
