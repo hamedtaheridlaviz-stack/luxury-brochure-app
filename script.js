@@ -53,7 +53,7 @@ async function importListing() {
   setStatus("Importing listing... this can take 30–90 seconds.");
 
   try {
-    const response = await fetch("/api/import-listing", {
+    const response = await fetch(`${window.location.origin}/api/import-listing`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ url })
