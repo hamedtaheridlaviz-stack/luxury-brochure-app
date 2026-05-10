@@ -1,0 +1,11 @@
+{
+  "name": "bh-luxury-brochure-app-final-import-system",
+  "version": "3.0.0-final-import-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "node tests/parser-test.js"
+  },
+  "dependencies": {}
+}
