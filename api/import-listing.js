@@ -36,10 +36,11 @@ export default async function handler(req, res) {
     const data = await response.json();
 
     if (!response.ok) {
-      return res.status(500).json({
-        error: "Apify request failed",
-        details: data
-      });
+  return res.status(500).json({
+    error: "Apify request failed: " + JSON.stringify(data).slice(0, 1000),
+    details: data
+  });
+}
     }
 
     const item = Array.isArray(data) ? data[0] : data;
