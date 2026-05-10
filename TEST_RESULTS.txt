@@ -1,0 +1,21 @@
+Parser simulation passed.
+{
+  "sourceUrl": "https://www.propertyfinder.ae/example",
+  "title": "3 Bedroom Apartment for Sale in Palm Jumeirah",
+  "price": "AED 4,950,000",
+  "propertyType": "Apartment",
+  "location": "Palm Jumeirah",
+  "beds": "3",
+  "baths": "4",
+  "area": "2,221 sqft",
+  "description": "AED 4,950,000 - 3 Bedrooms - 4 Bathrooms - 2,221 sqft - Balcony - Shared Pool - Covered Parking",
+  "features": [
+    "Balcony",
+    "Shared Pool",
+    "Covered Parking"
+  ],
+  "imageUrls": [
+    "https://example.com/photo1.jpg"
+  ],
+  "imported": true
+}
